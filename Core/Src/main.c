@@ -158,7 +158,7 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-  LL_RCC_ConfigMCO(LL_RCC_MCO1SOURCE_PLLCLK, LL_RCC_MCO1_DIV_1);
+  LL_RCC_ConfigMCO(LL_RCC_MCO1SOURCE_PLLCLK, LL_RCC_MCO1_DIV_5);
 }
 
 /**

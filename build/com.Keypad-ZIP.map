@@ -59,7 +59,7 @@ Discarded input sections
  .text.MX_UART5_Init
                 0x00000000       0x34 build/main.o
  .text.SystemClock_Config
-                0x00000000       0xe4 build/main.o
+                0x00000000       0xe0 build/main.o
  .rodata.main.str1.4
                 0x00000000       0x3e build/main.o
  .text.main     0x00000000       0x7c build/main.o
@@ -67,7 +67,7 @@ Discarded input sections
  .bss.huart5    0x00000000       0x44 build/main.o
  .debug_info    0x00000000     0x1190 build/main.o
  .debug_abbrev  0x00000000      0x30c build/main.o
- .debug_loc     0x00000000      0x1cf build/main.o
+ .debug_loc     0x00000000      0x1d1 build/main.o
  .debug_aranges
                 0x00000000       0x48 build/main.o
  .debug_ranges  0x00000000       0x38 build/main.o
