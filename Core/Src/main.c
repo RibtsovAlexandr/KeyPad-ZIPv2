@@ -102,6 +102,12 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_UART_Transmit(&huart3, (uint8_t*)"Who's where?\n", 13, 1000);
+    HAL_UART_Transmit(&huart5, (uint8_t*)"WhoIs where?\n", 13, 1000);
+    HAL_Delay(1000);
+    HAL_UART_Transmit(&huart3, (uint8_t*)"Hello USART3\n", 13, 1000);
+    HAL_UART_Transmit(&huart5, (uint8_t*)"Hello UART5!\n", 13, 1000);
+    HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }
