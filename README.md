@@ -1,4 +1,6 @@
 # KeyPad communication board
+## CubeIDE project generates as UNSTABLE
+## (This repo is Marked as archived)
 
 This project must give Codes of keys pushed in custom KeyPad
 
